@@ -5,13 +5,16 @@
   "scripts": {
     "dev": "remotion studio",
     "build": "remotion bundle",
+    "render": "node render.mjs",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc"
   },
   "repository": {},
   "license": "UNLICENSED",
   "dependencies": {
+    "@remotion/bundler": "^4.0.0",
     "@remotion/cli": "^4.0.0",
+    "@remotion/renderer": "^4.0.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "^4.0.0"
